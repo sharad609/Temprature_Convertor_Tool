@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javaFx_demo.myController">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Label fx:id="welcomeLabel" alignment="CENTER" layoutX="129.0" layoutY="14.0" prefHeight="27.0" prefWidth="142.0" text="Welcome" textFill="RED" underline="true">
+               <font>
+                  <Font name="Arial Bold" size="20.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="choiceBox" layoutX="114.0" layoutY="60.0" prefHeight="32.0" prefWidth="173.0">
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor></ChoiceBox>
+            <TextField fx:id="userInputField" alignment="CENTER" layoutX="82.0" layoutY="108.0" prefHeight="32.0" prefWidth="237.0" promptText="Enter Temperature :" />
+            <Button fx:id="calculateBtn" layoutX="150.0" layoutY="160.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="101.0" text="Calculate">
+               <font>
+                  <Font name="Algerian" size="14.399999618530273" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</VBox>
